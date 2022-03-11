@@ -1,0 +1,52 @@
+
+
+Integer
+    -byte   8bits +/-128
+    -short  16bits
+    -int    32bits
+    -long   64bits
+Float
+    -float  32bits
+    -double 64bits
+Character
+    -char
+Boolean
+
+Operators
+Arithmetic operators
+    = assignment operator
+    +
+    -
+    /
+    *
+    %   modulus operator remainder
+    ++  unary increment operator
+    --
+        x=5;
+        y=x++;
+        z=++x;
+
+
+    +=  x=x+5; x+=5;
+    -=
+    /=
+    *=
+
+
+conditional
+    ==  x==y
+    <
+    >
+    <=
+    >=
+    !=
+logical/boolean
+A   B   A||B    A&&B    AxorB
+0   0   0       0       0
+0   1   1       0       1
+1   0   1       0       1
+1   1   1       1       0
+
+A   !A
+0   1
+1   0
